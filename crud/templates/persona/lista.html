@@ -3,17 +3,16 @@
 
 {% block content %}
     
-    {% if  personas %}
-        <ul> 
+    {% if personas %}
+        <ul>
             
-            {% for personas in personas %}
-                <li>{{persona}}</li>
+            {% for persona in personas  %}
+                <li>{{persona}}</li>     
             {% endfor %}
                 
-
         </ul>
+        
     {% endif %}
         
 {% endblock content %}
-
     
